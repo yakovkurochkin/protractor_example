@@ -1,0 +1,14 @@
+{
+  "name": "protractor_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conf.js",
+  "scripts": {
+    "test": "node_modules/.bin/protractor conf.js"
+  },
+  "author": "Iakov",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "5.4.2"
+  }
+}
