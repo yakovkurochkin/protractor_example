@@ -8,7 +8,7 @@ An example [Protractor](http://protractortest.org) project, that includes tests 
 
 ## Setup:
 * Install [Node](http://nodejs.org) (v10.x.x or later)
-* Install [Dopcker](https://www.docker.com/)
+* Install [Docker](https://www.docker.com/)
 * `docker run -d -p 4444:4444 -p 5900:5900 -v /dev/shm:/dev/shm selenium/standalone-chrome-debug:3.141.59-palladium`
 * `git clone git@github.com:yakovkurochkin/protractor_example.git`
 * `npm i` to install the project dependencies
@@ -19,4 +19,4 @@ An example [Protractor](http://protractortest.org) project, that includes tests 
 
 ## VNC 
 * Install VNC client (https://www.realvnc.com/en/connect/download/viewer/)
-* Connect with address 127.0.0.1:5900 and password - secret
+* Connect with address `127.0.0.1:5900` and password `secret`
