@@ -1,6 +1,6 @@
 class BasePage {
 
-    constructor(timeout =1000) {
+    constructor() {
         this.timeout = 10000;
     }
 
@@ -18,7 +18,7 @@ class BasePage {
      */
     waitForElementVisible(element) {
         browser.wait(protractor.ExpectedConditions.visibilityOf(element), this.timeout,
-            'timeout: waiting for element "' + element.locator() + '" is visible');
+            `timeout: waiting for element "${element.locator()}" is visible`);
     }
 }
 

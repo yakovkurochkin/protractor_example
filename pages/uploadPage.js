@@ -21,11 +21,11 @@ class UploadPage extends BasePage {
     }
 
     baseUploadFile(element) {
-        var remote = require('selenium-webdriver/remote');
+        const remote = require('selenium-webdriver/remote');
         browser.setFileDetector(new remote.FileDetector());
 
-        var path = require('path');
-        var fileToUpload = path.resolve('./files/' + this.uploadedFilename);
+        const path = require('path');
+        const fileToUpload = path.resolve('./files/' + this.uploadedFilename);
 
         element.sendKeys(fileToUpload);
     }
